@@ -187,8 +187,8 @@
                             "image": "counterclock.png"
                         },
                         {
-                            "name": "Counterclockwise",
-                            "image": "counterclockwise.png"
+                            "name": "Clockwise",
+                            "image": "clockwise.png"
                         }
                     ]
                 }

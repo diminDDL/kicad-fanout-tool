@@ -87,8 +87,8 @@ package:
     direction:
     - name: Counterclock
       image: counterclock.svg
-    - name: Counterclockwise
-      image: counterclockwise.svg
+    - name: Clockwise
+      image: clockwise.svg
 - name: BGA staggered
   alignment:
   - name: noname

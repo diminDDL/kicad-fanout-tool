@@ -399,7 +399,7 @@ class BGA:
                     if self.direction =='Counterclock':
                         x = pos.x - self.pitchx/2
                         y = pos.y + self.pitchy/2
-                    if self.direction =='Counterclockwise':
+                    if self.direction =='Clockwise':
                         x = pos.x + self.pitchx/2
                         y = pos.y + self.pitchy/2
                 else:
@@ -407,7 +407,7 @@ class BGA:
                     if self.direction =='Counterclock':
                         x = pos.x + self.pitchx/2
                         y = pos.y + self.pitchy/2
-                    if self.direction =='Counterclockwise':
+                    if self.direction =='Clockwise':
                         x = pos.x + self.pitchx/2
                         y = pos.y - self.pitchy/2
             else:
@@ -416,7 +416,7 @@ class BGA:
                     if self.direction =='Counterclock':
                         x = pos.x - self.pitchx/2
                         y = pos.y - self.pitchy/2
-                    if self.direction =='Counterclockwise':
+                    if self.direction =='Clockwise':
                         x = pos.x - self.pitchx/2
                         y = pos.y + self.pitchy/2
                 else:
@@ -424,7 +424,7 @@ class BGA:
                     if self.direction =='Counterclock':
                         x = pos.x + self.pitchx/2
                         y = pos.y - self.pitchy/2
-                    if self.direction =='Counterclockwise':
+                    if self.direction =='Clockwise':
                         x = pos.x - self.pitchx/2
                         y = pos.y - self.pitchy/2
             end = pcbnew.wxPoint(x, y)
@@ -444,7 +444,7 @@ class BGA:
                     if self.direction =='Counterclock':
                         x = pos.x
                         y = pos.y + pitch
-                    if self.direction =='Counterclockwise':
+                    if self.direction =='Clockwise':
                         x = pos.x + pitch
                         y = pos.y
                 else:
@@ -452,7 +452,7 @@ class BGA:
                     if self.direction =='Counterclock':
                         x = pos.x - pitch
                         y = pos.y
-                    if self.direction =='Counterclockwise':
+                    if self.direction =='Clockwise':
                         x = pos.x
                         y = pos.y + pitch
             else:
@@ -461,7 +461,7 @@ class BGA:
                     if self.direction =='Counterclock':
                         x = pos.x + pitch
                         y = pos.y
-                    if self.direction =='Counterclockwise':
+                    if self.direction =='Clockwise':
                         x = pos.x
                         y = pos.y - pitch
                 else:
@@ -469,7 +469,7 @@ class BGA:
                     if self.direction =='Counterclock':
                         x = pos.x
                         y = pos.y - pitch
-                    if self.direction =='Counterclockwise':
+                    if self.direction =='Clockwise':
                         x = pos.x - pitch
                         y = pos.y
                     
