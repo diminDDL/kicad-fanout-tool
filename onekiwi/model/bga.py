@@ -484,7 +484,7 @@ class BGA:
     def add_track(self, net, start, end):
         track = pcbnew.PCB_TRACK(self.board)
         track.SetStart(start)
-        track.SetEnd(pcbnew.VECTOR2I(end))
+        track.SetEnd(pcbnew.VECTOR2I(int(end.x), int(end.y)))
         track.SetWidth(self.track)
         track.SetLayer(pcbnew.F_Cu)
         track.SetNetCode(net)
@@ -494,7 +494,7 @@ class BGA:
     def add_via(self, net, pos):
         via = pcbnew.PCB_VIA(self.board)
         via.SetViaType(pcbnew.VIATYPE_THROUGH)
-        via.SetPosition(pcbnew.VECTOR2I(pos))
+        via.SetPosition(pcbnew.VECTOR2I(int(pos.x), int(pos.y)))
         via.SetWidth(int(self.via.m_Diameter))
         via.SetDrill(self.via.m_Drill)
         via.SetNetCode(net)
