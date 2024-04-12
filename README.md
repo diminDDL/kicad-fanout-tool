@@ -1,7 +1,6 @@
 # Fanout Tool
-![screenshot](icon/icon_256x256.png)  
-BGA Fanout
-This is based on the OneKiwiTech original plugin, but since they usually take a while to update it to the newest KiCAD versions, I just try to maintain this one for myself.
+
+This repo is based on the OneKiwiTech original plugin, but since they usually take a while to update it to the newest KiCAD versions, I just try to maintain this one for myself.
 
 ## GUI
 ![screenshot](doc/fanout_tool.png)
